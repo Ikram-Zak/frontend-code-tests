@@ -58,9 +58,7 @@ font-weight: bold;
 }
 
 .progressBar{
-	color: #F15E33;
+	background-color: #F15E33;
 	width: 200px;
 	height: 20px;
 }
-progress::-webkit-progress-value {
-	background-color: #ff6e6e; 
