@@ -35,14 +35,32 @@ color: #838383;
 
 .daysLeft{
 color:#F15E33 ;
+font-weight: bold;
 }
 
 .bubbleSpeech{
-	color: #424242;
+	color: white;
 	border: 1px;
+	top: 40px;
+	left: 50%;
+	background-color: #424242;
+	width: 270px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
 .whyGive{
 	color: #25A5D8;
 	font-size: 10px;
+	
 }
+
+.progressBar{
+	color: #F15E33;
+	width: 200px;
+	height: 20px;
+}
+progress::-webkit-progress-value {
+	background-color: #ff6e6e; 
